@@ -126,7 +126,7 @@ class SalesPredictionPipeline:
             plt.setp(axes[1, 1].xaxis.get_majorticklabels(), rotation=45)
         
         plt.tight_layout()
-        plt.savefig('/home/claude/eda_visualizations.png', dpi=300, bbox_inches='tight')
+        plt.savefig('/workspaces/selfstudy/eda_visualizations.png', dpi=300, bbox_inches='tight')
         print("\nEDA visualizations saved to 'eda_visualizations.png'")
         plt.close()
         
@@ -139,7 +139,7 @@ class SalesPredictionPipeline:
                     center=0, square=True, linewidths=1)
         plt.title('Correlation Heatmap of Numeric Features')
         plt.tight_layout()
-        plt.savefig('/home/claude/correlation_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.savefig('/workspaces/selfstudy/correlation_heatmap.png', dpi=300, bbox_inches='tight')
         print("Correlation heatmap saved to 'correlation_heatmap.png'")
         plt.close()
         
@@ -343,7 +343,7 @@ class SalesPredictionPipeline:
         print(comparison.to_string(index=False))
         
         # Save comparison
-        comparison.to_csv('/home/claude/model_comparison.csv', index=False)
+        comparison.to_csv('/workspaces/selfstudy/model_comparison.csv', index=False)
         print("\nModel comparison saved to 'model_comparison.csv'")
         
         # Visualization
@@ -371,7 +371,7 @@ class SalesPredictionPipeline:
         axes[1, 1].set_title('Model Comparison - MAPE (Lower is Better)')
         
         plt.tight_layout()
-        plt.savefig('/home/claude/model_comparison.png', dpi=300, bbox_inches='tight')
+        plt.savefig('/workspaces/selfstudy/model_comparison.png', dpi=300, bbox_inches='tight')
         print("Model comparison chart saved to 'model_comparison.png'")
         plt.close()
         
@@ -390,7 +390,7 @@ class SalesPredictionPipeline:
         plt.legend()
         plt.grid(True, alpha=0.3)
         plt.tight_layout()
-        plt.savefig('/home/claude/predictions_vs_actual.png', dpi=300, bbox_inches='tight')
+        plt.savefig('/workspaces/selfstudy/predictions_vs_actual.png', dpi=300, bbox_inches='tight')
         print("Predictions vs actual plot saved to 'predictions_vs_actual.png'")
         plt.close()
         
@@ -434,7 +434,7 @@ class SalesPredictionPipeline:
         axes[1].invert_yaxis()
         
         plt.tight_layout()
-        plt.savefig('/home/claude/feature_importance.png', dpi=300, bbox_inches='tight')
+        plt.savefig('/workspaces/selfstudy/feature_importance.png', dpi=300, bbox_inches='tight')
         print("Feature importance plot saved to 'feature_importance.png'")
         plt.close()
         
@@ -450,12 +450,12 @@ class SalesPredictionPipeline:
         best_model = self.results[best_model_name]['model']
         
         # Save model
-        joblib.dump(best_model, '/home/claude/best_sales_model.pkl')
-        joblib.dump(self.scaler, '/home/claude/scaler.pkl')
+        joblib.dump(best_model, '/workspaces/selfstudy/best_sales_model.pkl')
+        joblib.dump(self.scaler, '/workspaces/selfstudy/scaler.pkl')
         
         # Save feature names
         feature_names = self.X_train.columns.tolist()
-        joblib.dump(feature_names, '/home/claude/feature_names.pkl')
+        joblib.dump(feature_names, '/workspaces/selfstudy/feature_names.pkl')
         
         print(f"Best model ({best_model_name}) saved to 'best_sales_model.pkl'")
         print("Scaler saved to 'scaler.pkl'")
@@ -484,7 +484,7 @@ Features Used:
 {', '.join(feature_names)}
 """
         
-        with open('/home/claude/model_info.txt', 'w') as f:
+        with open('/workspaces/selfstudy/model_info.txt', 'w') as f:
             f.write(model_info)
         
         print("Model information saved to 'model_info.txt'")
@@ -525,7 +525,7 @@ Features Used:
             print(f"{i}. {insight}")
         
         # Save insights
-        with open('/home/claude/business_insights.txt', 'w') as f:
+        with open('/workspaces/selfstudy/business_insights.txt', 'w') as f:
             f.write("Business Insights from Sales Prediction Analysis\n")
             f.write("=" * 50 + "\n\n")
             for insight in insights:
@@ -588,10 +588,10 @@ def main():
     
     # Initialize pipeline
     pipeline = SalesPredictionPipeline(
-        sales_path='/mnt/user-data/uploads/sales_fact.csv',
-        products_path='/mnt/user-data/uploads/products_master.csv',
-        inventory_path='/mnt/user-data/uploads/inventory_snapshot.csv',
-        suppliers_path='/mnt/user-data/uploads/suppliers_master.csv'
+        sales_path='/workspaces/selfstudy/sales_fact.csv',
+        products_path='/workspaces/selfstudy/products_master.csv',
+        inventory_path='/workspaces/selfstudy/inventory_snapshot.csv',
+        suppliers_path='/workspaces/selfstudy/suppliers_master.csv'
     )
     
     # Run the complete pipeline

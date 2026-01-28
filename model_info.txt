@@ -1,0 +1,20 @@
+
+Sales Prediction Model Information
+===================================
+
+Best Model: XGBoost
+
+Performance Metrics (Test Set):
+- R² Score: 0.9720
+- RMSE: 1.25
+- MAE: 0.95
+- MAPE: 3.26%
+
+Training Date: 2026-01-28 03:24:36
+
+Number of Features: 39
+Training Samples: 11680
+Test Samples: 2920
+
+Features Used:
+selling_price, mrp, cost_price, discount_pct, discount_amount, profit_margin, price_ratio, current_stock, safety_stock, reorder_point, lead_time_days, stock_to_safety_ratio, days_until_stockout, promo_flag, bundle_offer_flag, campaign_intensity, month, week_of_year, day_of_week, is_weekend, is_festival_month, is_payday_period, holiday_flag, quarter, day_of_year, weather_index, traffic_index, competitor_price_index, competitor_stockout_flag, stock_visibility_score, rating_score, review_volume, product_visibility_rank, sales_rolling_mean_7d, sales_rolling_std_7d, category_encoded, sub_category_encoded, season_tag_encoded, platform_traffic_source_encoded

@@ -1,0 +1,8 @@
+Business Insights from Sales Prediction Analysis
+==================================================
+
+• Average daily sales per SKU: 29.53 units
+• Maximum daily sales recorded: 60 units
+• Promotional lift: 43.9% increase in sales during promotions
+• Weekend vs Weekday: +3.9% difference in sales
+• Top performing category: Electronics Accessories
