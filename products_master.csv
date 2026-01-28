@@ -1,0 +1,41 @@
+sku_id,sku_name,category,sub_category,mrp,cost_price,supplier_id
+SKU0001,NovaCharge Cable,Electronics Accessories,Audio,1036,731.48,SUP003
+SKU0002,AirWave Earbuds,Beauty & Personal Care,Body Care,435,318.36,SUP007
+SKU0003,GlowCare Serum,Home Cleaning,Multi-Surface,249,138.91,SUP006
+SKU0004,FlexFit Yoga Mat,Electronics Accessories,Audio,532,290.52,SUP006
+SKU0005,PureHome Dish Liquid,Electronics Accessories,Audio,654,477.19,SUP008
+SKU0006,BrightWrite Pen,Fitness & Wellness,Hydration,1735,962.12,SUP009
+SKU0007,SteelCraft Frying Pan,Home & Kitchen,Storage,909,635.63,SUP003
+SKU0008,AromaBrew Mug,Home Cleaning,Floor Care,468,242.36,SUP006
+SKU0009,GripLine Mouse Pad,Home Cleaning,Floor Care,550,298.87,SUP008
+SKU0010,AquaGuard Bottle,Beauty & Personal Care,Skin Care,1152,719.05,SUP001
+SKU0011,SkinShield Sunscreen,Home Cleaning,Floor Care,283,141.73,SUP003
+SKU0012,DeskMate Organizer,Fitness & Wellness,Strength,1062,752.72,SUP005
+SKU0013,CleanWave Floor Cleaner,Electronics Accessories,Charging,1388,867.32,SUP009
+SKU0014,CalmSleep Pillow,Beauty & Personal Care,Hair Care,1298,777.55,SUP005
+SKU0015,PowerGrid Board,Fitness & Wellness,Strength,1330,979.58,SUP007
+SKU0016,QuickNote Notebook,Stationery & Office,Organizers,275,165.59,SUP006
+SKU0017,SmoothInk Highlighter,Home Cleaning,Floor Care,739,482.22,SUP005
+SKU0018,FreshNest Spray,Electronics Accessories,Audio,903,452.83,SUP004
+SKU0019,CoreTone Resistance Band,Home Cleaning,Floor Care,223,128.47,SUP005
+SKU0020,SoftGlow Handwash,Electronics Accessories,PC Accessories,879,636.78,SUP004
+SKU0021,SwiftCharge Charger,Beauty & Personal Care,Body Care,603,400.28,SUP008
+SKU0022,ChefEase Board,Fitness & Wellness,Yoga,615,330.8,SUP005
+SKU0023,CloudRest Cushion,Home & Kitchen,Cookware,1335,854.15,SUP001
+SKU0024,OfficePro Stapler,Electronics Accessories,PC Accessories,635,374.71,SUP002
+SKU0025,EcoWipe Towel,Fitness & Wellness,Hydration,2375,1596.06,SUP003
+SKU0026,HushWork Laptop Stand,Stationery & Office,Accessories,362,203.06,SUP003
+SKU0027,SafePlug Protector,Fitness & Wellness,Strength,1831,1195.94,SUP004
+SKU0028,DailyBrew Kettle,Home & Kitchen,Storage,1149,850.42,SUP003
+SKU0029,ZenFresh Body Wash,Fitness & Wellness,Hydration,1391,748.46,SUP007
+SKU0030,UltraClean Sponge,Electronics Accessories,Audio,1900,1079.22,SUP006
+SKU0031,UrbanGrip Phone Case,Home & Kitchen,Serveware,1003,558.86,SUP007
+SKU0032,ClipEase Clips,Home & Kitchen,Storage,671,341.26,SUP008
+SKU0033,PureMist Humidifier,Beauty & Personal Care,Skin Care,723,527.31,SUP003
+SKU0034,SteelServe Lunch Box,Electronics Accessories,PC Accessories,860,468.54,SUP002
+SKU0035,GlowFresh Face Wash,Home & Kitchen,Storage,1031,525.42,SUP005
+SKU0036,PrintPro Paper Pack,Home & Kitchen,Cookware,577,383.61,SUP004
+SKU0037,SportFlex Bottle,Beauty & Personal Care,Hair Care,482,297.17,SUP010
+SKU0038,CleanSweep Broom,Home & Kitchen,Storage,1129,602.58,SUP010
+SKU0039,CalmBrew Tea Kettle,Electronics Accessories,Charging,2062,1091.87,SUP002
+SKU0040,DeskBuddy Monitor Stand,Electronics Accessories,Charging,1849,1035.26,SUP008

@@ -1,0 +1,11 @@
+supplier_id,supplier_name,avg_lead_time,lead_time_variability
+SUP001,EastBridge Trading Co.,3,2
+SUP002,NovaSupply Distributors,11,4
+SUP003,Skyline Imports Pvt. Ltd.,10,2
+SUP004,UrbanEdge Wholesale,3,4
+SUP005,PrimeRoute Logistics,13,2
+SUP006,Vertex Retail Partners,5,2
+SUP007,BlueRiver Merchants,6,4
+SUP008,OrbitLine Sourcing,5,4
+SUP009,Zenith Commerce LLP,7,4
+SUP010,HarborPoint Global,5,4

@@ -1,0 +1,8 @@
+Column Name,Description,Business Meaning
+sku_id,Unique product SKU identifier,Primary key used to link all product-related data
+sku_name,Product name,Human-readable product description
+category,Top-level product category,Used for category-level demand behaviour
+sub_category,Secondary product group,Captures finer segmentation for forecasting
+mrp,Maximum Retail Price,Base list price before discounts
+cost_price,Procurement or landed cost,Used for margin and profitability calculations
+supplier_id,Foreign Key → suppliers_master,Identifies which supplier provides this SKU
